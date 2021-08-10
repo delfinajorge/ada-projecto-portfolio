@@ -414,6 +414,15 @@ label{
 
 @media(max-width: 480px){
 
+    .contenedorquote{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.50em;
+        height: 30em;
+        background-color: white;
+    }
+
     .presentacion .presentacion1{
         width: 80%;
         }
@@ -468,6 +477,15 @@ label{
 
     .contenedor{
         width: 70%;  
+    }
+
+    .contenedorquote{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4.50em;
+        height: 30em;
+        background-color: white;
     }
 
     .contacto{
