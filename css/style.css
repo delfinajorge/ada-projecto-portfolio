@@ -377,10 +377,32 @@ label{
         min-width: 50%;
         margin-left: 10px;
     }
+    .contacto{
+    width: 100%;
+    display: flex;
+    background: white
+    }
+
+    .contacto1{
+        display: flex;
+        background-color: #e9deed;
+        width: 85%;
+        margin: 10em auto;
+        height: 40em;
+    }
+
    .formulario{
        display: flex;
        flex-direction: column;
    }
+
+    .variante1{
+        text-align: center;
+    }
+
+    .variante2{
+        text-align: center;
+    }
    
    .inputnombre{
        width: 170%;
