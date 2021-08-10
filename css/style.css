@@ -1,0 +1,408 @@
+*{
+    margin: o;
+    padding: o;
+}
+
+body{
+    background-color:#e9deed;
+    width: 100%;
+}
+/* Comienzo del menu de navegación */
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.15em;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    top: 0px;
+    position:fixed;
+    height: 6em;
+    align-items: center;
+    background-color: transparent;  
+}
+
+#menu{
+    background-color: white;
+    width: 930px;
+    margin: 20px auto 20px auto;
+    padding: 30px;
+    text-align: center; 
+    box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);          
+}
+
+li{
+    display: inline;
+    margin: 0px 3px;
+}
+
+a{
+    color: black;
+    padding: 0 4px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #D7C8B6;
+}
+
+/*Fin del menú de navegación*/
+
+/*Comienzo de presentación*/
+
+.presentacion{
+    margin-top: 12.5em;
+    width: 40em;
+    height: 60em;
+    margin-left: 15%;     
+}
+
+.presentacion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;  
+}
+
+h2{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 80px;   
+    text-align: center;
+}
+
+.boton{
+    background-color:white;
+    color:violet;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;  
+}
+
+/*Fin de presentación*/
+
+/*Comienzo de conocimientos*/
+
+
+.variante1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 3.50em;
+}
+
+.variante2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+
+.conocimientos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor{
+    width: 50em;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 15em;
+    float: left;
+    text-align: center;
+}
+
+figure{
+    background-color: white;
+    padding: 2em;
+    width: 8em;
+    height: 8em;
+    border: 1px solid;
+}
+
+figure:hover{
+    color: violet; 
+}
+
+/*Fin de seccion conocimientos*/
+
+/*Comienzo de cita*/
+
+.contenedorquote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.50em;
+    height: 30em;
+    background-color: white;
+}
+
+.imagen2{
+    margin-top: 5em;
+}
+
+h3{
+    font-style: italic;
+}
+
+/*Fin de cita*/
+
+/*Comienzo de proyectos*/
+
+.logo1{
+    width: 20em;
+    float: left;
+    text-align: center;
+    margin: 2em
+    
+}
+
+.imagen3:hover{
+    color: violet;
+}
+
+.a1:hover{
+    color: violet;
+}
+
+.imagen3{
+    background-color: white;
+    padding: 4em;
+    width: 12em;
+    height: 12em;
+    border: 1px solid;     
+}
+
+/*Fin de Proyecto*/
+
+/*Inicio Formulario*/
+.variante3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2em;
+    
+}
+.variante4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.contacto{
+    width: 100%;
+    display: flex;
+    background: white;
+}
+.contacto1{
+    display: flex;
+    background-color: #e9deed;
+    width: 85%;
+    margin: 10em auto;
+    height: 40em;
+}
+
+.redes{
+    margin-top: 1.875em;
+}
+
+.formulario{
+    display: flex; 
+    margin-top: 1.25em;
+   
+}
+.cajacontactame{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5em;
+    margin-top: 2.125em; 
+}
+
+.icono{
+    font-size: 2rem;
+    
+}
+.iconoredes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.25em;
+}
+.iconoredes:hover{
+    width: 2em;
+    height: 2em;
+    background-color: violet;
+    border-radius: 3em;
+}
+.link-redes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    margin-left: 1.25em;
+}
+.link-redes:hover{
+    color: violet;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    margin: 0.5em 0;
+}
+.inputnombre{
+    width: 13em;
+    height: 3em;
+    border: 2px solid #e9deed;
+    padding-left: 1.25em;
+    border-radius: 2em;
+}
+
+:focus {outline:none;}
+
+.inputemail:hover{
+    border-color: violet;
+}
+
+.inputnombre:hover{
+    border-color: violet;
+}
+
+.inputmensaje:hover{
+    border-color: violet;
+}
+.email{ 
+    margin-top: 1.875em;
+    border-radius: 2em;   
+}
+.boton2{
+    background-color:white ;
+    border: none;
+    border-radius: 2em;
+    padding: 1em;
+    font-size: 1.35rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:900;
+    margin-top: 0.625em;
+}
+.boton2:hover{
+    background-color: violet;
+    color: #FFEEDB;
+    transition: 0.4s;
+}
+.inputemail{
+    width: 28em;
+    margin-bottom: 0.625em;
+    height: 3em;
+    padding-left: 1.25em;
+    border-radius: 2em;
+    border: 2px solid #e9deed;
+    
+}
+.inputmensaje{
+    width: 25em;
+    font-family: 'Times New Roman', Times, serif;
+    height:10em;
+    padding-left: 1.25em;
+    padding-top: 0.625em;
+    resize: none;  
+    border-radius: 15px;  
+    border: 2px solid #e9deed;
+}
+.datos{
+    display: block;  
+    margin: 0.188em;
+}
+
+/*Fin Formulario*/
+
+/*Comienzo footer*/
+ .contenedorfooter{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .menufooter{
+     text-align: center;
+     line-height: 6.5em;
+     font-family: 'Times New Roman', Times, serif;
+     margin-top: 1em;
+ }
+
+ .iconosfooter{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin-top: 0 1.25em;
+     color: palevioletred;
+ }
+
+/*Fin footer*/
+
+/*Comienzo media*/
+
+ @media (min-width:1200px){
+    .contenedor{
+        width: 60%;
+    }
+    .proyectos{
+        width: 80%;
+    }
+}
+@media (min-width: 0px) and (max-width: 1000px) {
+    header{
+        display: none;
+    }
+}
+@media (max-width:1200px){
+    .contacto{
+        background-color: white;
+        width: 100%; 
+       }
+}
+@media (max-width:1024px){
+    .presentacion{
+        display: block;  
+    }
+}
+@media (max-width:768px){
+    .variante2{
+        font-size: 2.3rem;
+    }
+   .menufooter{
+       display: none;
+   }
+}
+@media (max-width:480px){
+   .formulario{
+       display: flex;
+       flex-direction: column;
+   }
+    #iconosredes1{
+        margin: 0 1.10rem;
+    }
+}
+@media (max-width:320px){
+    .contenedorquote .quote1{
+        font-size: 0.8rem;
+    }
+    .contenedorquote .quote2{
+        font-size: 1.2rem;
+    }
+    .variante3{
+        font-size: 2rem;
+    }
+    .variante4{
+        font-size: small;
+    }
+    #iconosredes1{
+        margin: 0 1rem;
+    }
+   
+}
