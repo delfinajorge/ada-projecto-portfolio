@@ -347,80 +347,166 @@ label{
 
 /*Comienzo media*/
 
-@media (max-width:1200px){
-    .contacto{
-        background: white;
-        width: 100%; 
-       }
-}   .contenedor{
-    width: 50em;
-    }
-    .logo1{
-    width: 20em;
-}
-@media (max-width:1024px){
-    .presentacion{
-        display: block;  
-    }
-    .contacto1{
-        width: 85%;
-        
-    }
-}
-@media (max-width:768px){
-   .menufooter{
-       display: none;
-   }
-}
-@media (max-width:480px){
-    .cajacontactame{
-        min-width: 50%;
-        margin-left: 10px;
-    }
-    .contacto{
-    width: 100%;
+@media(max-width: 1024px){
+
+   
+    #menu{
+    margin: 0 auto;
     display: flex;
-    background: white
+    align-items:center;
+    justify-content: space-evenly;
     }
-
-    .contacto1{
-        display: flex;
-        background-color: #e9deed;
-        width: 85%;
-        margin: 10em auto;
-        height: 40em;
+    .presentacion{ 
+        padding: 2em;
     }
-
-   .formulario{
-       display: flex;
-       flex-direction: column;
+    .conocimientos{
+        height: 70%;
+        width: 100%;
+        padding-top: 0.3em;  
+    }
+   .imagen2{
+    margin-top: 0.3em;
    }
+   
+}
 
-    .variante1{
-        text-align: center;
+
+@media(max-width: 768px){
+    header{
+        display: none;
     }
 
-    .variante2{
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conocimientos{
+        height: 50%;
+        margin: 0 auto;
+        padding-bottom: 2.5em;
+        width: 70%;  
+        display: flex;
+        flex-direction: column;
+  
+    }
+   
+    .imagen2{
+    margin-bottom: 0.2em;
+    }
+
+    .contenedorquote{
+        width: 100%;
+        margin-top: 0; 
+        height: 90%;
+    }
+
+    .proyectos{
+        height: 50%;
+        padding-bottom: 0.5em;
+    }
+    .contenedor{
+        width: 86%;
+           
+    }
+}
+   
+
+@media(max-width: 480px){
+
+    .presentacion .presentacion1{
+        width: 80%;
+        }
+
+    .presentacion1:first-child{
+        display: flex;
+        align-items: center;
+    }
+    .conocimientos{
+        width: 90%;  
+        margin: 0 auto;
+    }
+
+    .contenedor{
+        width: 70%;
+    }
+
+    .proyectos{
+        height: 50%;   
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .menufooter{
+        width: 90%;
+    }
+}
+
+
+@media(max-width: 320px){
+    /* comienzo sección presentación*/
+
+    .presentacion,  .presentacion1{
+        width: 85%;
+   
+    }
+
+    .presentacion1{
+        display: flex;
+        align-items: center;
+    }
+
+    .conocimientos{
+        width: 90%;  
+        margin: 0 auto;
+    }
+    .proyectos{
+        height: 50%;   
+    }
+
+    .contenedor{
+        width: 70%;  
+    }
+
+    .contacto{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 2em;   
+    }
+
+    .cajacontactame{
+    width: 100%;
+    }
+    .escribime{
+        width: 90%;
         text-align: center;
     }
    
-  
-}
-@media (max-width:320px){
-    .cajacontactame{
-        min-width: 50%;
-        margin-left: 10px;
+    .datos input[type="text"], form input[type="email"]{
+        width: 100%;
+        
+    }
+    .inputmensaje{
+        width: 100%;
+        height: 90%;
     }
 
-    .variante1{
-        text-align: center;
+
+    footer{
+        height: 40%;
     }
-    .variante2{
-        text-align: center;
+
+    .menufooter{
+        display: none;
     }
+
     .iconosfooter{
-        text-align: center;
-    }
-}
-     
+        flex-direction: column;
+        align-items: center;
+            }
+}     
+ 
+        
  
