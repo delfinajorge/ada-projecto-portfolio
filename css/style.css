@@ -404,30 +404,23 @@ label{
         text-align: center;
     }
    
-   .inputnombre{
-       width: 170%;
-    }
-    .inputemail{
-        width: 170%;
-    }
-    .inputmensaje{
-        width: 170%;
-    }
+  
 }
 @media (max-width:320px){
     .cajacontactame{
         min-width: 50%;
         margin-left: 10px;
     }
-    .inputnombre{
-        width: 180%;
+
+    .variante1{
+        text-align: center;
     }
-    .inputemail{
-        width: 175%;
+    .variante2{
+        text-align: center;
     }
-    .inputmensaje{
-        width: 175%;
+    .iconosfooter{
+        text-align: center;
     }
 }
-           
+     
  
