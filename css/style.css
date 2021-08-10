@@ -347,62 +347,6 @@ label{
 
 /*Comienzo media*/
 
- @media (min-width:1200px){
-    .contenedor{
-        width: 60%;
-    }
-    .proyectos{
-        width: 80%;
-    }
-}
-@media (min-width: 0px) and (max-width: 1000px) {
-    header{
-        display: none;
-    }
-}
-@media (max-width:1200px){
-    .contacto{
-        background-color: white;
-        width: 100%; 
-       }
-}
-@media (max-width:1024px){
-    .presentacion{
-        display: block;  
-    }
-}
-@media (max-width:768px){
-    .variante2{
-        font-size: 2.3rem;
-    }
-   .menufooter{
-       display: none;
-   }
-}
-@media (max-width:480px){
-   .formulario{
-       display: flex;
-       flex-direction: column;
-   }
-    #iconosredes1{
-        margin: 0 1.10rem;
-    }
-}
-@media (max-width:320px){
-    .contenedorquote .quote1{
-        font-size: 0.8rem;
-    }
-    .contenedorquote .quote2{
-        font-size: 1.2rem;
-    }
-    .variante3{
-        font-size: 2rem;
-    }
-    .variante4{
-        font-size: small;
-    }
-    #iconosredes1{
-        margin: 0 1rem;
-    }
-   
-}
+ @media (min-width:320px){
+     li{display:block;}
+
