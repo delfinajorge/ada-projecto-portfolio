@@ -347,13 +347,65 @@ label{
 
 /*Comienzo media*/
 
- @media (max-width:320px) {
-        li{display: block;}
-        .presentacion{ width: 20em;
-                       height: 30em;
-                       margin-left: 10%;}
-        .conocimientos{ display: flex;
-                        flex-direction: column;
-                        align-items: center;}
-        .contenedorquote{height: 30em;
-                         background-color: white;}
+@media (max-width:1200px){
+    .contacto{
+        background: white;
+        width: 100%; 
+       }
+}    .contenedor{
+    width: 50em;
+    }
+    .logo1{
+    width: 20em;
+}
+@media (max-width:1024px){
+    .presentacion{
+        display: block;  
+    }
+    .contacto1{
+        width: 85%;
+        flex-direction: column;
+    }
+}
+@media (max-width:768px){
+   .menufooter{
+       display: none;
+   }
+}
+@media (max-width:480px){
+    .cajacontactame{
+        min-width: 50%;
+        margin-left: 10px;
+    }
+   .formulario{
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .inputnombre{
+       width: 170%;
+    }
+    .inputemail{
+        width: 170%;
+    }
+    .inputmensaje{
+        width: 170%;
+    }
+  
+}
+@media (max-width:320px){
+
+    .cajacontactame{
+        min-width: 50%;
+        margin-left: 10px;
+    }
+    .inputnombre{
+        width: 180%;
+    }
+    .inputemail{
+        width: 175%;
+    }
+    .inputmensaje{
+        width: 175%;
+    }
+}
