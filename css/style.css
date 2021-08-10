@@ -352,7 +352,7 @@ label{
         background: white;
         width: 100%; 
        }
-}    .contenedor{
+}   .contenedor{
     width: 50em;
     }
     .logo1{
@@ -364,7 +364,7 @@ label{
     }
     .contacto1{
         width: 85%;
-        flex-direction: column;
+        
     }
 }
 @media (max-width:768px){
@@ -391,10 +391,8 @@ label{
     .inputmensaje{
         width: 170%;
     }
-  
 }
 @media (max-width:320px){
-
     .cajacontactame{
         min-width: 50%;
         margin-left: 10px;
@@ -409,3 +407,5 @@ label{
         width: 175%;
     }
 }
+           
+ 
