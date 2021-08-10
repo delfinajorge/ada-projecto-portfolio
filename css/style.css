@@ -352,4 +352,8 @@ label{
         .presentacion{ width: 20em;
                        height: 30em;
                        margin-left: 10%;}
-
+        .conocimientos{ display: flex;
+                        flex-direction: column;
+                        align-items: center;}
+        .contenedorquote{height: 30em;
+                         background-color: white;}
